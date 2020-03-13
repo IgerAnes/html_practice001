@@ -1,0 +1,44 @@
+#p001 {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: groove;
+    border-color: tomato;
+    margin: 5px;
+    /* set the style of id:p001 target. */
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: teal;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#a001:link, #a001:visited {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 25px;
+    /* set the space between text and border, first is top and buttom, second one is left and right. */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#a001:hover, #a001:active {
+    background-color: green;
+}
